@@ -1,0 +1,61 @@
+.p1-mt{
+    margin-top: 0;
+}
+
+.page1{
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    bottom: -100vh;
+    color: rgba(50%, 50%, 50%, 1);
+    margin: 0;
+}
+
+.me{
+    margin-top: 0px;
+}
+
+/* blue #33C1DA */
+/* orange #F36C41 */
+/* yellow #F3B041 */
+/* green #32A03F */
+/* black #333333 */
+
+.name{
+    text-align: center;
+    color: #333;
+}
+
+.color-g{
+    color:#777;
+}
+.color-lg{
+    color:#999;
+}
+
+.fs-l{
+    font-size: 36px;
+}
+.fs-m{
+    font-size: 20px;
+}
+.fs-s{
+    font-size: 16px;
+}
+
+.contact{
+    width: 10%;
+    fill: #333;
+}
+
+.hide{
+    display: none;
+}
+
+@media (min-width: 768px) { 
+    /* .p1-mt{margin-top: 100px;} */
+    .me{margin-top: 50px;}
+    .page1{font-size: 480px;bottom: -110vh;}
+    .contact{width: 15%;}
+    .hide{display: block;}
+ }

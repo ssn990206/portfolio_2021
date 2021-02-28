@@ -1,12 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Steven Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"
+        integrity="sha512-HqbDsHIJoZ36Csd7NMupWFxC7e7aX2qm213sX+hirN+yEx/eUNlZrTWPs1dUQDEW4fMVkerv1PfMohR1WdFFJQ=="
+        crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
 </head>
+
+
 <body>
-    
+    <div id="fullpage">
+        <div class="section d-flex justify-content-center">
+            <div class="container p1-mt align-items-center">
+                <div class="row">
+                    <div class="col-md">
+                        <img class="me" src="image/ME.png" alt="">
+                        <p class="name fs-l">翁毓翔</p>
+                        <p class="name fs-m">Yu-Hsiang Weng</p>
+                        <div style="width: 70%;margin: 0 auto;" class="d-flex justify-content-around">
+                            <a class="contact" href="https://www.facebook.com/profile.php?id=100001799358733" target="_blank"><img src="image/fb.svg" alt=""></a>
+                            <a class="contact" href="mailto:ssn990206@gmail.com" target="_blank"><img src="image/email.svg" alt=""></a><a class="contact" href="tel:0981545466" target="_blank"><img src="image/phone-call.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div>
+                            <p class="fs-l hide">Education</p><hr>
+                            <p class="fs-m">National Chen Kung University</p>
+                            <p class="fs-s color-lg">　2017 - 現在</p>
+                            <p class="fs-s color-lg">　工業與資訊管理學系</p>
+                        </div>
+                        <div class="hide">
+                            <p class="fs-l">Experience</p><hr>
+                            <p class="fs-m">成功大學新鮮人成長營</p>
+                            <p class="fs-s color-lg">　設計長／主視覺 粉專製圖</p>
+                            <p class="fs-m">NCKU HUB | 資訊改善校園</p>
+                            <p class="fs-s color-lg">　前端組／UI Design、粉專出圖</p>
+                            <p class="fs-m">食歸祭Tsia̍h kué-tsí</p>
+                            <p class="fs-s color-lg">　設計長／活動發想、主視覺、活動周邊</p>
+                            <p class="fs-m">學校專案-ePortfolio</p>
+                            <p class="fs-s color-lg">　介面設計師／UI、UX</p>
+                        </div>
+                    </div>
+                    <div class="col-md hide">
+                        <p class="fs-l">Ability</p><hr>
+                        <p class="fs-m color-g">Adobe illustrator</p>
+                        <p class="fs-m color-g">Adobe Photoshop</p>
+                        <p class="fs-m color-g">Figma</p>
+                        <p class="fs-m color-g">Adobe Xd</p>
+                        <p class="fs-m color-g">HTML5/CSS3</p>
+                        <p class="fs-m color-g">JavaScript/JQuery</p>
+                        <p class="fs-l">Cability</p><hr>
+                        <p class="fs-m color-g">UX/UI</p>
+                        <p class="fs-m color-g">Coding</p>
+                        <p class="fs-m color-g">Brand Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="slide" data-anchor="slide1">
+                <p class="page1">01</p>
+            </div>
+        </div>
+        <div class="section">0</div>
+        <div class="section">Four</div>
+    </div>
+
+    <script>
+        new fullpage('#fullpage', {
+            licenseKey: 'YOUR KEY HERE',
+            sectionsColor: ['#fff', '#fff', '#fff', '#fff'],
+            
+        });
+    </script>
 </body>
+
 </html>
